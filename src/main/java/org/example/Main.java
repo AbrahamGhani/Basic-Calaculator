@@ -11,40 +11,21 @@ public class Main {
 
 
     // ==================================== Basic Calculator ====================================
-//        System.out.println("Enter the first Num: ");
-//        float num1 = input.nextFloat();
-//        input.nextLine();
-//
-//        System.out.println("Enter the second Num: ");
-//        float num2 = input.nextFloat();
-//
-//        input.nextLine();
-//        // Needed in order to Eat the left over next line from the Enter key press. if not done it will be
-//        // detected as an enter input instead of the users input
-//
-//        System.out.println("What do you want done:\n    (A) - Add\n    (S) - Subtract\n    (M) - Multiple\n    (D) - Divide");
-//        System.out.println("Choice: ");
-//        String mathOption = input.nextLine();
-//
-//        if (mathOption.equalsIgnoreCase("A")){
-//            float result = num1 + num2;
-//            System.out.println(result);
-//        }
-//        else if (mathOption.equalsIgnoreCase("S")) {
-//            float result = num1 - num2;
-//            System.out.println(result);
-//        }
-//        else if (mathOption.equalsIgnoreCase("M")) {
-//            float result = num1 * num2;
-//            System.out.println(result);
-//        }
-//        else if (mathOption.equalsIgnoreCase("D")) {
-//            float result = num1 / num2;
-//            System.out.println(result);
-//        }
-//        else {
-//            System.out.println("Invalid Entry");
-//        }
+        System.out.println("Enter the first Num: ");
+        float num1 = input.nextFloat();
+        input.nextLine();
+
+        System.out.println("Enter the second Num: ");
+        float num2 = input.nextFloat();
+
+        input.nextLine();
+
+
+        Calculators.doBasicMath(num1, num2);
+
+        // Needed in order to Eat the left over next line from the Enter key press. if not done it will be
+        // detected as an enter input instead of the users input
+
 
 // ==================================== Payroll Calculator ====================================
 
